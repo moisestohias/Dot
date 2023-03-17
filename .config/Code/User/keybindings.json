@@ -1,0 +1,75 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+shift+up",
+        "command": "cursorTop"
+    },
+    {
+        "key": "alt+shift+down",
+        "command": "cursorBottom",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "scrollPageUp"
+    },
+    {
+        "key": "alt+down",
+        "command": "scrollPageDown"
+    },
+    {
+        "key": "ctrl+shift+alt+up",
+        "command": "cursorTopSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "cursorBottomSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+right",
+        "command": "cursorEndSelect",
+        "when": "textInputFocus",
+        "args": {
+            "sticky": false
+        }
+    },
+    {
+        "key": "ctrl+shift+alt+left",
+        "command": "cursorHomeSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "cursorEnd",
+        "when": "textInputFocus",
+        "args": {
+            "sticky": false
+        }
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "editor.action.reindentlines"
+    },
+    // { "key": "ctrl+shift+i", "command": "editor.action.reindentlines" },
+    {
+        "key": "ctrl+alt+q",
+        "command": "workbench.action.openWorkspace"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "python.execInTerminal"
+    },
+
+]

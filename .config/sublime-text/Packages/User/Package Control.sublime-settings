@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoHotkey",
+		"ayu",
+		"Catppuccin color schemes",
+		// "FileIcons",
+		"fish",
+		"gruvbox",
+		// "MarkdownEditing",
+		"MarkdownLivePreview",
+		"nginx",
+		"Package Control",
+		"PackageResourceViewer",
+		// "python-black",
+		"SideBarEnhancements",
+	],
+	"debug": true,
+}

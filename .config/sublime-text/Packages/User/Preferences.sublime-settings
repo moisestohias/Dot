@@ -1,0 +1,76 @@
+{
+	"hide_pointer_while_typing": true,
+	"always_show_minimap_viewport": true,
+	"auto_close_tags": true,
+	"auto_find_in_selection": true,
+	"auto_indent": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 3,
+	"caret_extra_width": 4,
+	"ui_scale": 1.5,
+	"block_caret": true,
+	"caret_style": "solid",
+	"copy_with_empty_selection": false,
+	"drag_text": false,
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"draw_white_space": "selection",
+	"enable_tab_scrolling": false,
+	"fade_fold_buttons": false,
+	"find_selected_text": true,
+	// "font_face": "JetBrains Mono",
+	// "font_face": "Iosevka",
+	"font_face": "fira code",
+	// "font_face": "Victor Mono",
+	// "font_face": "Cantarell",
+	// "font_face": "Metropolis",
+	// "font_face": "Roboto",
+	// "font_face": "dank mono",
+	// "font_face": "MonoLisa-Regular",
+	// "line_padding_top": 6,
+	// "line_padding_bottom": 6,
+	"word_wrap": "true",
+	"font_options":
+	[
+		// "no_italic",
+		"subpixel_antialias"
+	],
+	"font_size": 11,
+	"gutter": true,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Anaconda",
+		"python-black",
+		"Vintage",
+	],
+	"indent_guide_options":
+	[
+		"draw_active",
+		"draw_normal"
+	],
+	"indent_to_bracket": true,
+	"line_numbers": false,
+	"margin": 0,
+	"mini_diff": false,
+	"remember_full_screen": true,
+	"scroll_past_end": true,
+	"scroll_speed": 1.0,
+	"show_encoding": true,
+	"show_errors_inline": false,
+	"show_line_endings": true,
+	// disable autocompletion popups when setting the syntax to progLang
+	"auto_complete": false, 
+	// tab should bring the autocompletion popup, and commit
+	"tab_completion": true, 
+	"auto_complete_commit_on_tab": false,
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": false,
+	"use_tab_stops": false,
+
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Mocha.sublime-color-scheme",
+
+}

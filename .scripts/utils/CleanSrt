@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -e 
+grep -Pv '^\d+|^\s*$' "$1" | uniq -iu

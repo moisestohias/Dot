@@ -1,0 +1,47 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/syntax.html
+file_extensions:
+  - txt
+scope: text.plain.txt
+contexts:
+  main:
+    # Strings begin and end with quotes, and use backslashes as an escape
+    # character
+    - match: '^(#|##|>=>|==>|=>>|»)\s.+'
+      scope: entity.name.title
+    - match: '^#[a-zA-Z0-9-\s]+\.(txt|py)'
+      scope: file.title
+    - match: '^(=>|->)\s.+'
+      scope: entity.name.subtitle
+    - match: '^\d\..+'
+      scope: entity.name.numbredList
+
+    - match: 'https?://(www\.)?[a-zA-Z0-9.-/]+\.[a-zA-Z0-9?=/_&-]+'
+      scope: url.long
+    - match: '[a-zA-Z0-9./-]+\.(com|net|org|net|io|be)/[a-zA-Z0-9?=/_&-]*'
+      scope: url.short
+
+    - match: '^\s*(#\w+)'
+      captures:
+        1: entity.name.tag
+      push:
+        - match: '#\w+'
+          scope: entity.name.tag
+        - match: '$'
+          pop: true
+
+
+    - match: '^!Note:.*$'
+      scope: entity.name.note
+    - match: '^!(TIP|Tip)(s|S)?:.*$'
+      scope: entity.name.tip
+    - match: '^!Warning:.*$'
+      scope: entity.name.warning
+
+    - match: '^\s*\+.+'
+      scope: entity.name.bullet
+    - match: '^\s*\-.+'
+      scope: entity.name.bullet
+    - match: '^\s*•.+'
+      scope: entity.name.bullet
